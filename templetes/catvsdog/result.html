@@ -1,0 +1,16 @@
+
+
+<p>　</p><p>　</p><p>　</p><p>　</p>
+<center>
+    <p>개고양이 판독기</p>
+    <form action="" method="post" enctype="multipart/form-data">
+      {% csrf_token %}
+      {{ form }}
+      <input type="submit" value="Upload" />
+    </form>
+                <p>결과</p>
+        {{ img.name }}
+
+    <img class="img" src="{{ img.photo.url }}"></img>
+
+</center>

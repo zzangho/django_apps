@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*- 
 from django.shortcuts import render
 from .forms.file_upload import UploadFileForm
 from .models import ImageExample
